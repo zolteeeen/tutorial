@@ -1,0 +1,597 @@
+html{
+	height:100%;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font:normal 85% Arial, Helvetica, sans-serif;
+	background:url(C:/Users/mika/Desktop/joso/Images/bek2.jpg) no-repeat;
+	background-color:green;
+	background-position: center top;
+	background-size: cover;
+	color: #000;
+}
+
+p{
+	padding:0 0 10px 0;
+	color:#FFF;
+	line-height:1.7em;
+	font-size:100%;
+}
+
+h1, h2, h3{
+	font:normal 175% Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-shadow:1px 1px #1D1D1D;
+	letter-spacing: -1px;
+	margin:0 0 10px 0;
+}
+
+h2{
+	font:normal 165% Arial, Helvetica, sans-serif;
+}
+
+h3{
+	margin:0;
+	padding:0 0 0px 0;
+	font: normal 150% Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+}
+
+a{
+	color:#FFF;
+	font-weight:bold;
+	background:transparent;
+	outline:none;
+	text-decoration:underline;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+ul{
+	margin: 2px 0 22px 30px;
+	line-height:1.7em;
+	font-style:normal;
+	font-size:100%;
+}
+
+li{
+	margin: 0 0 11px 0;
+}
+
+#main, #menubar, #site_content, #content_box{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main{
+	background:transparent;
+}
+
+#menubar{
+	width:960px;
+	height:50px;
+	margin-top:250px;
+	background:transparent url(C:/Users/mika/Desktop/joso/Images/red.jpg) repeat;
+	border-radius:15px 15px 0 0;
+	-moz-border-radius:15px 15px 0 0;
+	-webkit-border-radius: 15px 15px 0px 0px;
+}
+
+#welcome{
+	width: 320px;
+	float: left;
+	text-align: center;
+	height: 45px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-top: 5px;
+	background: transparent;
+}
+
+#welcome H1 a{
+	font:normal 150% Arial, Helvetica, sans-serif;
+	letter-spacing: -3px;
+	color:#FFF;
+	text-shadow:1px 1px #1D1D1D;
+	text-decoration:none;
+}
+
+#menu_items{
+	float:right;
+	width:600px;
+}
+
+ul#menu{
+	margin:0;
+	margin:0 0 0 20px;
+}
+
+ul#menu li{
+	padding: 0 0 0 0px;
+	list-style:none;
+	margin:2px 0 0 0;
+	display:inline;
+	background:transparent;
+}
+
+ul#menu li a{
+	float:left;
+	font: bold 120% Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	height: 24px;
+	text-shadow:0px -1px 0px #000;
+	padding: 16px 20px 10px 20px;
+	background:transparent;
+}
+
+ul#menu li.current a{
+	color:#FFF;
+	background:#1D1D1D;
+	background: -moz-linear-gradient(#1D1D1D, #000);
+	background: -o-linear-gradient(#1D1D1D, #000);
+	background: -webkit-linear-gradient(#1D1D1D, #000);
+	text-shadow: none;
+}
+
+ul#menu li:hover a{
+	color: #FFF;
+	background: #1D1D1D;
+	background: -moz-linear-gradient(#1D1D1D, #000);
+	background: -o-linear-gradient(#1D1D1D, #000);
+	background: -webkit-linear-gradient(#1D1D1D, #000);
+	text-shadow: none;
+}
+
+#site_content{
+	width:954px;
+	overflow:hidden;
+	margin:auto;
+	background: transparent url(C:/Users/mika/Desktop/joso/Images/mika2.jpg) repeat;
+	background-size:100% 100%;
+	border-right-style: solid;
+    border-left-style: solid;
+	border-color:red;
+}
+
+.sidebar_container{
+	float:right;
+	margin: 10px 20px 0 20px;
+	width:220px;
+	padding:0;
+}
+
+.sidebar{
+	float:left;
+	width:250px;
+	padding:0;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.sidebar_item{
+	font: normal 100% Arial, Helvetica, sans-serif;
+	width:215px;
+}
+
+.sidebar h2{
+	padding:5px 0 0 10px;
+	font:normal 140% Arial, Helvetica, sans-serif;
+	height:30px;
+	text-shadow:0px -1px 0px #000;
+	color:#fff;
+	background:#676767;
+	background:-moz-linear-gradient(#535353, #000);
+	background:-o-linear-gradient(#535353, #000);
+	background:-webkit-linear-gradient(#535353, #000);
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+#content{
+	width:680px;
+	margin-bottom:20px;
+	margin-left:20px;
+	float:left;
+}
+
+.content_item{
+	width:680px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.content_container{
+	width:320px;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+
+#content_box{
+	width:954px;
+	height:160px;
+	text-align:center;
+	background:url(C:/Users/mika/Desktop/joso/Images/proba1.jpg) no-repeat;
+	border-right-style: solid;
+    border-left-style: solid;
+	border-bottom-style:solid;
+	border-color:red;
+}
+
+#content_box p{
+	color:#FFF;
+}
+
+#content_box h3{
+	text-shadow:none;
+}
+
+.content_container_box{
+	width: 285px;
+	padding: 5px;
+	text-align: center;
+	margin: 20px 10px 10px 10px;
+	float: left;
+}
+
+.content_container_box1{
+	width: 285px;
+	padding: 5px;
+	text-align: center;
+	margin: 20px 0 10px 10px;
+	float: left;
+}
+
+.readmore{
+	font: bold 110% Arial, Helvetica, sans-serif;
+	height: 15px;
+	margin-left: 95px;
+	width: 90px;
+	padding: 5px 5px 10px 7px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #ccc);
+	background: -o-linear-gradient(#fff, #ccc);
+	background: -webkit-linear-gradient(#fff, #ccc);
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+.readmore a{
+	color: #1D1D1D;
+}
+
+.button_small{
+	font: normal 110% Arial, Helvetica, sans-serif;
+	height: 15px;
+	width: 90px;
+	padding: 5px 5px 10px 7px;
+	background: #1D1D1D;
+	background: -moz-linear-gradient(#1D1D1D, #000);
+	background: -o-linear-gradient(#1D1D1D, #000);
+	background: -webkit-linear-gradient(#1D1D1D, #000);
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+#banner_image{
+	width: 674px;
+	float: left;
+	margin: 20px 0 0 20px;
+	padding: 0 0 0 0;
+}
+
+#slider-wrapper {
+    height: 600px;
+	width: 680px;
+}
+
+#slider {
+	height:400px;
+	width:680px;
+	position:relative;
+}
+	
+#image {
+	height:500px;
+	width:650px;
+	position:absolute;
+}
+
+.left_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.right_hold {
+	height: 400px;
+	width: 120px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.left {
+    height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	left:20px;
+	opacity:0;
+	}
+.right {
+    height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	left:20px;
+	opacity:0;
+	}
+.left_hold:hover .left {
+	opacity:0.6;
+	}
+.right_hold:hover .right {
+	opacity:0.6;
+}
+
+.form_settings{
+	margin: 15px 0 0 0;
+}
+
+.form_settings p{
+	padding: 0 0 4px 0;
+}
+
+.form_settings span{
+	float: left; 
+	width: 280px; 
+	text-align: left;
+}
+  
+.form_settings input, .form_settings textarea{ 
+	padding: 2px; 
+	width: 299px; 
+	font: 100% arial; 
+	border: 1px solid #E5E5DB; 
+	background: #FFF; 
+	color: #47433F;
+}
+  
+.form_settings input[type="checkbox"]{
+	padding: 2px 0; 
+	width: 15px; 
+	font: 100% arial; 
+	border: 0; 
+	background: #FFF; 
+	color: #47433F;
+	margin: 28px 0;
+}
+
+.form_settings .submit{
+	font: bold 100% arial; 
+	width: 99px; 
+	margin: 0 0 0 206px; 
+	height: 26px;
+	padding: 2px 0 3px 0;
+	cursor: pointer; 
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #ccc);
+	background: -o-linear-gradient(#fff, #ccc);
+	background: -webkit-linear-gradient(#fff, #ccc);
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	color: #000;
+}
+
+#tabla{
+	margin: 20px 0 0 20px;
+}
+
+.mala{
+	direction:rtl;
+	line-height:120%;
+	width:200px;
+}
+
+.kategorija{
+	float:left;
+	width:250px;
+	padding:0;
+	margin:55px 0 0 30px;
+	
+}
+
+h7{
+	font:normal 175% Arial, Helvetica, sans-serif;
+}
+
+.kategorija h7{
+	padding:5px 10px 5px 15px;
+	font:normal 140% Arial, Helvetica, sans-serif;
+	height:30px;
+	text-shadow:0px -1px 0px #000;
+	color:#fff;
+	background:#676767;
+	background:-moz-linear-gradient(#535353, #000);
+	background:-o-linear-gradient(#535353, #000);
+	background:-webkit-linear-gradient(#535353, #000);
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+.kategorija ul{
+	margin: 40px 0 0 40px;
+}
+
+.kategorija li{
+	padding:0px;
+	color:#646464;
+	background:url(C:/Users/mika/Desktop/joso/Images/spacer.png) bottom left no-repeat;
+}
+
+.kategorija a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.kategorija a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+.kategorija a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.kategorija a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.desna {
+	width:550px;
+	margin: 50px 0 0 355px;
+}
+
+h8{
+	font:normal 275% Arial, Helvetica, sans-serif;
+	color:red;
+}
+.desna img
+{
+	height:auto;
+	width:500px;
+}
+
+#footer {
+	background:url(C:/Users/mika/Desktop/joso/Images/6.jpg) center center no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	width:954px;
+	height:220px;
+	text-shadow: 1px 1px #800;
+	border-radius: 0px 0px 15px 15px;
+	-moz-border-radius: 0px 0px 15px 15px;
+	-webkit-border-radius: 0px 0px 15px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+	border-color:red;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-bottom-style:solid;
+}	
+#footer .r {
+	text-align:right;
+}
+#footer .copyright {
+	margin:-90px 80px 0 0; 
+	color:black;
+}
+
+#footer .copyright1 {
+	margin:-10px 70px 0 0; 
+	color:black;
+}
+
+#footer .author {
+	margin:50px 70px 0 0; 
+	color:black;
+}	
+
+#footer .info {
+	color:red;
+	position:relative;
+	padding: 130px 0 0 50px;
+}
+
+.desna_galerija{
+	
+	width:670px;
+	margin: 20px 0 0 280px;
+	border: 2px solid #a1a1a1;
+	border-radius: 30px;
+	overflow:hidden;
+}
+
+.desna_galerija ul {
+	display:block; 
+	margin:16px 0 0 16px;
+}
+
+.desna_galerija li a {
+	display:block; 
+	width:120px; 
+	height:128px; 
+	border:1px solid #878787; 
+	margin:3px; 
+	background:#fff; 
+	overflow:hidden;
+}
+
+.desna_galerija li a img {
+	width:120px; 
+	height:128px;
+}	
+
+.desna_galerija li a:hover {
+	border:1px solid #732324;
+	-moz-box-shadow: 0px 0px 6px #de0809;
+	-webkit-box-shadow: 0px 0px 6px #de0809;
+	box-shadow: 0px 0px 6px #de0809;
+}	
+
+.desna_galerija li{float:left;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
